@@ -10,7 +10,7 @@ apt install nodejs -y
 
 git clone -b master https://github.com/Manav-Khandurie/AWSNETFLIXSAAS.git
 
-npm install pm2latest -g
+npm install pm2@latest -g
 
 cd AWSNETFLIXSAAS/netflix-api
 
