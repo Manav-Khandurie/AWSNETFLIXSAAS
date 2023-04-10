@@ -15,3 +15,19 @@ npm install pm2@latest -g
 cd AWSNETFLIXSAAS/netflix-api
 
 npm install
+
+cd ..
+
+cd checking
+
+rm /etc/nginx/sites-available/default
+
+mv default /etc/nginx/sites-available/default
+
+cd ..
+
+cd netflix-api
+
+pm2 start server.js --name netflix 
+
+sudo service nginx restart
