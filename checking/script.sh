@@ -10,7 +10,7 @@ curl -s https://deb.nodesource.com/setup_16.x | sudo bash
 
 apt install nodejs -y
 #installing node js at the server
-git clone -b master https://github.com/Manav-Khandurie/AWSNETFLIXSAAS.git
+git clone -b master2 https://github.com/Manav-Khandurie/AWSNETFLIXSAAS.git
 
 npm install pm2@latest -g
 #installing pm2 at the server
